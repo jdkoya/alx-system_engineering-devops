@@ -10,7 +10,7 @@ do
 	if [ $number -eq 3 ]
 	then
 		echo "bad luck"
-	elif [$number -eq 7]
+	elif [ $number -eq 7 ]
 	then
 		echo "good luck"
 	else
