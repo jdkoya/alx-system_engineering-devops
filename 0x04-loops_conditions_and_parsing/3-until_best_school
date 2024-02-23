@@ -4,5 +4,5 @@ number=0
 until [ $number -eq 10 ]
 do
 	echo "Best School"
-	((number++))
+	(( number++ ))
 done
