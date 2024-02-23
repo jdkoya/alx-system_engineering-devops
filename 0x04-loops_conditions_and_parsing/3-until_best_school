@@ -1,0 +1,8 @@
+#!/usr/bim/env bash
+# a Bash script that displays Best School 10 times using until loop.
+number=0
+until [ $number -eq 10 ]
+do
+	echo "Best School"
+		((number++))
+done
